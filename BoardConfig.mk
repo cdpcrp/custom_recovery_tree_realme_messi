@@ -154,3 +154,6 @@ BOARD_AVB_RECOVERY_ROLLBACK_INDEX_LOCATION := 1
 
 # Workaround for copy file errors
 TARGET_COPY_OUT_VENDOR := vendor
+
+# Version
+TW_DEVICE_VERSION := Crypton
