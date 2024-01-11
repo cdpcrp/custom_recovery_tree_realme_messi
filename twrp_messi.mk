@@ -15,6 +15,9 @@ $(call inherit-product, vendor/twrp/config/common.mk)
 # Inherit from messi device
 $(call inherit-product, device/realme/messi/device.mk)
 
+# Virtual A/B
+$(call inherit-product, $(SRC_TARGET_DIR)/product/virtual_ab_ota.mk)
+
 PRODUCT_DEVICE := messi
 PRODUCT_NAME := twrp_$(PRODUCT_DEVICE)
 PRODUCT_BRAND := realme
