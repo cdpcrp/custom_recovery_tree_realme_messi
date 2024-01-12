@@ -53,6 +53,7 @@ TARGET_NO_BOOTLOADER := false
 
 # Crypto
 TW_INCLUDE_CRYPTO := true
+TW_PREPARE_DATA_MEDIA_EARLY := true
 
 # Decryption
 BOARD_USES_QCOM_FBE_DECRYPTION := true
