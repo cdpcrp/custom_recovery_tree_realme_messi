@@ -47,27 +47,10 @@
 
 # Other Partitions
 /apdp               emmc      /dev/block/bootdevice/by-name/apdp
-/devinfo            emmc      /dev/block/bootdevice/by-name/devinfo
-/aboot              emmc      /dev/block/bootdevice/by-name/aboot
-/sbl1               emmc      /dev/block/bootdevice/by-name/sbl1
-/rpm                emmc      /dev/block/bootdevice/by-name/rpm
-/tz                 emmc      /dev/block/bootdevice/by-name/tz
-/modemst1           emmc      /dev/block/bootdevice/by-name/modem_st1               flags=display="Modem_ST1";backup=1;flashimg=1
-/modemst2           emmc      /dev/block/bootdevice/by-name/modem_st2               flags=display="Modem_ST2";backup=1;flashimg=1
-/static_nv_bk       emmc      /dev/block/bootdevice/by-name/oppostanvbk
-/oppodycnvbk        emmc      /dev/block/bootdevice/by-name/oppodycnvbk
 /splash             emmc      /dev/block/bootdevice/by-name/splash                  flags=display="Splash";slotselect;flashimg=1
-/reserve4           emmc      /dev/block/bootdevice/by-name/reserve4
 /dsp                emmc      /dev/block/bootdevice/by-name/dsp
 /DRIVER             emmc      /dev/block/bootdevice/by-name/DRIVER
-/devcfg             emmc      /dev/block/bootdevice/by-name/devcfg
-/mdtp               emmc      /dev/block/bootdevice/by-name/mdtp
-/cmnlib             emmc      /dev/block/bootdevice/by-name/cmnlib
-/keymaster          emmc      /dev/block/bootdevice/by-name/keymaster
 /apdp               emmc      /dev/block/bootdevice/by-name/apdp
-/devinfo            emmc      /dev/block/bootdevice/by-name/devinfo
-/abl                emmc      /dev/block/bootdevice/by-name/abl
-/xbl                emmc      /dev/block/bootdevice/by-name/xbl
 
 # Mount Vendor Partitions
 /persist            ext4      /dev/block/bootdevice/by-name/persist          flags=display="Persist";backup=1;flashimg=1
