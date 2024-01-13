@@ -69,6 +69,7 @@ if [ "$1" = "$FDEVICE" -o "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
     export OF_CLOCK_POS=1
     export OF_ALLOW_DISABLE_NAVBAR=0
     export OF_USE_GREEN_LED=0
+    export OF_SCREEN_H=2400
 
 # A/B-Related
     export OF_AB_DEVICE_WITH_RECOVERY_PARTITION=1
