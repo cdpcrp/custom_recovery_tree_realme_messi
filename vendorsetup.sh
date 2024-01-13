@@ -1,4 +1,4 @@
-i#
+#
 #	This file is part of the OrangeFox Recovery Project
 # 	Copyright (C) 2021-2023 The OrangeFox Recovery Project
 #
