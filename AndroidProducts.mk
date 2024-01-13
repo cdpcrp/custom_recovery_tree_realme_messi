@@ -6,9 +6,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/twrp_messi.mk
+    $(LOCAL_DIR)/omni_messi.mk
 
 COMMON_LUNCH_CHOICES := \
-    twrp_messi-user \
-    twrp_messi-userdebug \
-    twrp_messi-eng
+    omni_messi-user \
+    omni_messi-userdebug \
+    omni_messi-eng
